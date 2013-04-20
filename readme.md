@@ -7,3 +7,12 @@ As Valve shown clearly they do not like us bypassing their stupid plugin checks 
 
 Consider this extremely early alpha version, for now only 1 feature is available:
 * Allow mat_picmip in range \[-10,6] (from default \[-1,2])
+
+FAQ:
+====
+
+Q. Will I get VAC banned?
+A. Very unlikely. There is no .dll loaded in the game, the plugin itself will run for less than a second while you're not in a server so VAC shouldn't even be running.
+
+Q. But... Hacks?
+A. If you manage to make hacks out of this thing then consider yourself skilled enough to go do something useful in real life.
