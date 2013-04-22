@@ -41,11 +41,11 @@ A command is executed in the context of the game with /command:"echo Hello World
 FAQ:
 ====
 
-Q. It says I'm missing MSVCR100.DLL, how do I fix?  
+Q. **It says I'm missing MSVCR100.DLL, how do I fix?**  
 A. Install the visual 2010 redistributable (x86) package [here](https://www.microsoft.com/en-us/download/details.aspx?id=5555)
 
-Q. Will I get VAC banned?  
+Q. **Will I get VAC banned?**  
 A. Very unlikely. There is no .dll loaded in the game, the plugin itself will run for less than a second while you're not in a server so VAC shouldn't even be running.
 
-Q. But... Hacks?  
+Q. **But... Hacks?**  
 A. If you manage to make cheats out of this thing then consider yourself skilled enough to go do something useful in real life.
