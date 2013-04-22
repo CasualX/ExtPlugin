@@ -39,5 +39,6 @@ template<> inline double CmdLineArgs::GetArg<double>( const char* id, double def
 template<> inline bool CmdLineArgs::GetArg<bool>( const char* id, bool def ) const
 {
 	// This can be done a bit better...
-	return GetArg<int>( id, def )!=0;
+	const char* s = GetArg( id );
+	return s ? ( *s==0 ? true : atoi( s )!=0 ) : false;
 }

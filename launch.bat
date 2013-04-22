@@ -1,1 +1,1 @@
-ExtPlugin.exe /process:hl2.exe
+ExtPlugin.exe /process:hl2.exe /picmip /cvars /command:"echo ExtPlugin by Casual" 

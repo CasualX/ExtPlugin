@@ -29,6 +29,12 @@
     <ClInclude Include="util.h">
       <Filter>headers</Filter>
     </ClInclude>
+    <ClInclude Include="extplugin.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="srcsdk.h">
+      <Filter>headers</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -44,6 +50,9 @@
       <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="util.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
